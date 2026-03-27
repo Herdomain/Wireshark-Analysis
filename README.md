@@ -95,15 +95,23 @@ This project helped me understand that:
 
 ## 🖼️ Sample Observations
 
+🔹 TCP Handshake (Wireshark)
 ![TCP Handshake](https://github.com/Herdomain/Network-Administration/blob/main/tcp_handshake.jpg)
+Fig 1.1. This capture shows a successful TCP 3-way handshake between two devices, confirming active communication over port 80.
 
-This capture shows a successful TCP 3-way handshake between two devices, confirming active communication over port 80.
+---
+🔹 Packet Details (MAC Address Identification)
+![Packet Details](images/packet_details.png)
+Fig 1.2. From this packet, I was able to identify both source and destination MAC addresses and confirm communication between devices.
 
+---
 
+🔹 TCP Stream Analysis
+![TCP Stream](images/tcp_stream.png)
+Fig. 1.3. This stream shows HTTP communication and confirms the server is running on port 80 (Ubuntu).
 
-- Devices communicating over port 80 (web traffic)  
-- TCP 3-way handshake confirming active connections  
-- MAC address identification from packet data  
+---
+
 - Cross-verification between Nmap results and Wireshark captures  
 
 ---
