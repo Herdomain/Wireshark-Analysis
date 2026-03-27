@@ -1,0 +1,133 @@
+# 🌐 Network Analysis with Wireshark & Nmap
+
+## 📌 Overview
+In this project, I analyzed network activity using Wireshark and Nmap to understand how devices communicate and what information can be discovered within a network.
+
+My goal was to explore how much visibility these tools provide and how that information can be used to identify potential security risks.
+
+---
+
+## ⚙️ What I Did
+
+To complete this analysis, I:
+
+- Scanned the network using Nmap to identify active devices, open ports, and services  
+- Captured live network traffic using Wireshark  
+- Matched scan results with real packet data  
+- Identified communication patterns between devices  
+- Collected device details such as IP addresses and MAC addresses  
+
+---
+
+## 🧪 Environment Setup
+
+I set up a virtual lab environment with:
+
+- Windows Server  
+- Linux Server (Ubuntu)  
+- Kali Linux (used for scanning and monitoring)  
+
+All scans and traffic captures were performed from the Kali machine.
+
+---
+
+## 🔍 Approach
+
+My workflow included:
+
+- Identifying IP addresses across the network  
+- Running Nmap scans to discover:
+  - Open ports  
+  - Operating systems  
+  - Active services  
+- Capturing traffic in Wireshark  
+- Filtering packets (e.g., TCP traffic) to analyze communication  
+- Verifying Nmap results using packet-level data  
+- Documenting findings across multiple devices  
+
+---
+
+## 📊 Key Findings
+
+Through this analysis, I:
+
+- Identified multiple active devices on the network  
+- Discovered open ports such as:
+  - **80 (HTTP)**  
+  - **21 (FTP)**  
+  - **3306 (MySQL)**  
+- Observed real communication using TCP handshakes  
+- Matched scan results with captured network traffic  
+- Confirmed how much system and network information can be exposed through scanning  
+
+---
+
+## 🎯 Impact
+
+This project helped me:
+
+- Understand how network scanning reveals system information  
+- Identify potential exposure points such as open ports  
+- Improve visibility into how devices communicate  
+- Validate findings by cross-referencing multiple tools  
+
+---
+
+## 🛠️ Tools & Technologies
+
+- **Wireshark:** packet capture and traffic analysis  
+- **Nmap:** network scanning and discovery  
+- **Kali Linux:** testing environment  
+- **VirtualBox:** virtual machine setup  
+
+---
+
+## 🔄 Workflow Summary
+
+1. Set up virtual machines  
+2. Identified IP addresses of each device  
+3. Ran Nmap scans across the network  
+4. Captured traffic using Wireshark  
+5. Analyzed communication patterns  
+6. Matched scan results with observed activity  
+7. Documented findings  
+
+---
+
+## 🖼️ Sample Observations
+
+- Devices communicating over port 80 (web traffic)  
+- TCP 3-way handshake confirming active connections  
+- MAC address identification from packet data  
+- Cross-verification between Nmap scans and Wireshark captures  
+
+---
+
+## 🚀 Future Improvements
+
+If I were to deepen my understanding in this project, I would:
+
+- Segment the network to reduce exposure  
+- Close or secure unnecessary open ports  
+- Implement continuous monitoring  
+- Add alerting for unusual traffic patterns  
+- Perform more targeted scans instead of full network scans  
+
+---
+
+## 🔐 Security Value
+
+This project demonstrates my ability to:
+
+- Discover devices and services on a network  
+- Analyze real network traffic  
+- Identify potential risks and exposure points  
+- Validate findings across multiple tools  
+- Build a strong foundation in network security analysis  
+
+---
+
+## 📄 Full Report
+
+For a detailed breakdown with screenshots and analysis:  
+👉 Add your full report link here
