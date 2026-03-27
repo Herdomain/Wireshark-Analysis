@@ -101,13 +101,13 @@ Fig 1.1. This capture shows a successful TCP 3-way handshake between two devices
 
 ---
 🔹 Packet Details (MAC Address Identification)
-![Packet Details]([images/packet_details.png](https://github.com/Herdomain/Network-Administration/blob/main/images/packet_details.jpg))
+![Packet Details](https://github.com/Herdomain/Network-Administration/blob/main/images/packet_details.jpg)
 Fig 1.2. From this packet, I was able to identify both source and destination MAC addresses and confirm communication between devices.
 
 ---
 
 🔹 TCP Stream Analysis
-![TCP Stream]([images/tcp_stream.png](https://github.com/Herdomain/Network-Administration/blob/main/images/tcp_stream.jpg))
+![TCP Stream](https://github.com/Herdomain/Network-Administration/blob/main/images/tcp_stream.jpg)
 Fig. 1.3. This stream shows HTTP communication and confirms the server is running on port 80 (Ubuntu).
 
 ---
