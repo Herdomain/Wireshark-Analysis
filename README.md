@@ -33,18 +33,27 @@ All scans and traffic captures were performed from the Kali machine.
 
 ---
 
-## 🔍 Approach
+## 🖼️ Sample Observations
 
-To complete this analysis, I:
-
-- Identified IP addresses for each device  
-- Ran Nmap scans to detect open ports, operating systems, and services  
-- Captured network traffic using Wireshark  
-- Filtered and analyzed packets (e.g., TCP traffic)  
-- Matched scan results with live traffic data  
-- Collected MAC addresses and device details  
+🔹 TCP Handshake (Wireshark)
+![TCP Handshake](https://github.com/Herdomain/Network-Administration/blob/main/images/tcp_handshake.jpg)
+Fig 1.1. This capture shows a successful TCP 3-way handshake between two devices, confirming active communication over port 80.
 
 ---
+🔹 Packet Details (MAC Address Identification)
+![Packet Details](https://github.com/Herdomain/Network-Administration/blob/main/images/packet_details.jpg)
+Fig 1.2. From this packet, I was able to identify both source and destination MAC addresses and confirm communication between devices.
+
+---
+
+🔹 TCP Stream Analysis
+![TCP Stream](https://github.com/Herdomain/Network-Administration/blob/main/images/tcp_stream.jpg)
+
+Fig. 1.3. This stream shows HTTP communication and confirms the server is running on port 80 (Ubuntu).
+
+---
+
+- Cross-verification between Nmap results and Wireshark captures  
 
 ## 📊 Key Findings
 
@@ -72,63 +81,6 @@ This project helped me understand that:
 
 ---
 
-## 🛠️ Tools & Technologies
-
-- **Wireshark:** packet capture and traffic analysis  
-- **Nmap:** network scanning and discovery  
-- **Kali Linux:** testing environment  
-- **VirtualBox:** virtual machine setup  
-
----
-
-## 🔄 Workflow Summary
-
-1. Set up virtual machines  
-2. Identified IP addresses of each device  
-3. Ran Nmap scans across the network  
-4. Captured traffic using Wireshark  
-5. Analyzed packets and communication patterns  
-6. Matched scan results with observed activity  
-7. Documented findings  
-
----
-
-## 🖼️ Sample Observations
-
-🔹 TCP Handshake (Wireshark)
-![TCP Handshake](https://github.com/Herdomain/Network-Administration/blob/main/images/tcp_handshake.jpg)
-Fig 1.1. This capture shows a successful TCP 3-way handshake between two devices, confirming active communication over port 80.
-
----
-🔹 Packet Details (MAC Address Identification)
-![Packet Details](https://github.com/Herdomain/Network-Administration/blob/main/images/packet_details.jpg)
-Fig 1.2. From this packet, I was able to identify both source and destination MAC addresses and confirm communication between devices.
-
----
-
-🔹 TCP Stream Analysis
-![TCP Stream](https://github.com/Herdomain/Network-Administration/blob/main/images/tcp_stream.jpg)
-
-Fig. 1.3. This stream shows HTTP communication and confirms the server is running on port 80 (Ubuntu).
-
----
-
-- Cross-verification between Nmap results and Wireshark captures  
-
----
-
-## 🚀 Future Improvements
-
-If I were to extend this project, I would:
-
-- Segment the network to reduce exposure  
-- Close or secure unnecessary open ports  
-- Implement continuous network monitoring  
-- Add alerting for unusual traffic patterns  
-- Perform more targeted scans instead of full network scans  
-
----
-
 ## 🔐 Security Value
 
 This project demonstrates my ability to:
@@ -143,8 +95,8 @@ This project demonstrates my ability to:
 
 ## 📄 Full Report
 
-See the full detailed analysis and screenshots here:  
-👉 :contentReference[oaicite:0]{index=0}
+See the full detailed analysis and screenshots here:   
+👉 [View Full Report](https://docs.google.com/document/d/1FKf9LDBcs-WIxNXnED4KflNUIGKqHZ7Cfl-1yNpHu9s/edit?usp=sharing)
 
 
 
