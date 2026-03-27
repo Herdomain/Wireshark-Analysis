@@ -108,6 +108,7 @@ Fig 1.2. From this packet, I was able to identify both source and destination MA
 
 🔹 TCP Stream Analysis
 ![TCP Stream](https://github.com/Herdomain/Network-Administration/blob/main/images/tcp_stream.jpg)
+
 Fig. 1.3. This stream shows HTTP communication and confirms the server is running on port 80 (Ubuntu).
 
 ---
