@@ -95,7 +95,7 @@ This project helped me understand that:
 
 ## 🖼️ Sample Observations
 
-![TCP Handshake](images/tcp_handshake.png)
+![TCP Handshake](https://github.com/Herdomain/Network-Administration/blob/main/tcp_handshake.jpg)
 
 This capture shows a successful TCP 3-way handshake between two devices, confirming active communication over port 80.
 
