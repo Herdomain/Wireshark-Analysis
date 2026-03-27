@@ -95,6 +95,12 @@ This project helped me understand that:
 
 ## 🖼️ Sample Observations
 
+![TCP Handshake](images/tcp_handshake.png)
+
+This capture shows a successful TCP 3-way handshake between two devices, confirming active communication over port 80.
+
+
+
 - Devices communicating over port 80 (web traffic)  
 - TCP 3-way handshake confirming active connections  
 - MAC address identification from packet data  
